@@ -8,7 +8,7 @@ $categories = $pdo->query('SELECT * FROM categories ORDER BY id')->fetchAll(PDO:
   <div class="container">
     <div class="hero-copy">
       <div class="eyebrow">Empowering the Next Generation of Female Leaders</div>
-      <h1>Learn. Growv . TEST<br><span>Lead.</span></h1>
+      <h1>Learn.Grow.<br><span>Lead.</span></h1>
       <p>A self-paced learning platform designed to help young women develop confidence, leadership skills, and practical knowledge for life and the future.</p>
       <div class="hero-actions">
         <a href="<?= $__user ? 'dashboard.php' : 'signup.php' ?>" class="btn btn-primary">Start your journey</a>
